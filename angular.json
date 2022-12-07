@@ -48,7 +48,6 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "less",
             "assets": ["src/favicon.ico", "src/assets"],
-            "styles": ["src/styles.less", "./node_modules/bulma/css/bulma.css"],
             "scripts": []
           },
           "configurations": {

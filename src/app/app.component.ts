@@ -1,14 +1,10 @@
-import { Component } from "@angular/core"
+import { Component } from '@angular/core';
 
 @Component({
-  selector: "app-root",
-  template: `
-    <app-header></app-header>
-    <router-outlet></router-outlet>
-    <app-footer> </app-footer>
-  `,
-  styles: []
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.less'],
 })
 export class AppComponent {
-  title = "eia style guide"
+  title = 'style-guide';
 }
